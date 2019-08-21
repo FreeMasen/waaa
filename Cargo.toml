@@ -11,6 +11,9 @@ csv = "1"
 serde = "1"
 serde_derive = "1"
 serde_json = "1"
+progress_string = "0"
+crossterm_cursor = "0.2.6"
+
 [dependencies.rusqlite]
 version = "0.20.0"
-features = ["bundled"]
+features = ["bundled", "backup", "trace"]
